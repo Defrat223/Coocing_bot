@@ -6,7 +6,7 @@ from dataset_loader import DatasetLoader
 
 class RecipeBot:
     def __init__(self, token, data):
-        self.bot = telebot.TeleBot('7845414262:AAEA69LU7fRlBVvzJ9Hy3ISe-bmN6nazKXI')
+        self.bot = telebot.TeleBot(token)
         self.dataset_loader = data
         self.RT = Node([], [])
 
